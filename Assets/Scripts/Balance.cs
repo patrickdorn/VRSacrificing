@@ -8,7 +8,7 @@ namespace Jam
         private PrayCounter prayCounter;
         private DanceManager danceManager;
         public static float balance { get; private set; }
-        private float speed = 2;
+        private float speed = -2;
         private float multi = 0.01f;
 
         // Use this for initialization
@@ -25,7 +25,7 @@ namespace Jam
         {
             balance = balance + multi * speed * Time.deltaTime;
             NormalizeBalance();
-            Debug.Log("Balance: " + balance);
+            Debug.LogError("Balance: " + balance);
         }
 
         void NormalizeBalance()

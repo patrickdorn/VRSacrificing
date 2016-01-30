@@ -13,7 +13,8 @@ public class DanceManager : MonoBehaviour
     private float zPosition = 0.5f;
     public delegate void DanceDelegate();
     public event DanceDelegate danceEvent;
-
+    public int rattleCountToCompleteDance = 3;
+    private int rattleCount = 0;
     public void Awake()
     {
         if (instance == null)
@@ -45,13 +46,16 @@ public class DanceManager : MonoBehaviour
     public void stopDance()
     {
         destroyDancePoint();
+        rattleCount = 0;
     }
 
     void RattleSuccessful()
     {
-        if (danceEvent != null)
+        rattleCount++;
+        if (danceEvent != null && rattleCount >= rattleCountToCompleteDance)
         {
             danceEvent();
+            rattleCount = 0;
         }
         xPosition *= -1;
         destroyDancePoint();
