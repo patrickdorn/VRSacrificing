@@ -25,7 +25,6 @@ namespace Jam
         {
             balance = balance + multi * speed * Time.deltaTime;
             NormalizeBalance();
-            Debug.LogError("Balance: " + balance);
         }
 
         void NormalizeBalance()
