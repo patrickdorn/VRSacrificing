@@ -47,13 +47,13 @@ namespace Jam
         void DidPray()
         {
             speed++;
-            Debug.Log("DidPray. Speed goes up to: " + speed);
+            Debug.LogError("DidPray. Speed goes up to: " + speed);
         }
 
         void DidDance()
         {
             speed--;
-            Debug.Log("DidDance. Speed goes down to: " + speed);
+            Debug.LogError("DidDance. Speed goes down to: " + speed);
         }
     }
 }
