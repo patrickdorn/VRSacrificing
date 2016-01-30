@@ -3,13 +3,15 @@ using Jam;
 
 public class LightIntensity : MonoBehaviour {
 
-    private LensFlare sun;
+    private Light sunLight;
+    private LensFlare sunFlare;
     private float factor;
 
     // Use this for initialization
     void Start () {
-        sun = GetComponent<LensFlare>();
-	}
+        sunFlare = GetComponent<LensFlare>();
+        sunLight = GetComponent<Light>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -20,6 +22,7 @@ public class LightIntensity : MonoBehaviour {
         {
             factor = Balance.balance * 3;
         }
-        sun.brightness = 1 + factor;
+        sunFlare.brightness = 1 + factor;
+        sunLight.intensity = 1 + Balance.balance / 2;
 	}
 }
