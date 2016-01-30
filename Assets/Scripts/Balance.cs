@@ -6,6 +6,7 @@ namespace Jam
     {
 
         private PrayCounter prayCounter;
+        private DanceManager danceManager;
         public static float balance { get; private set; }
         private float speed = 0;
         private float multi = 0.01f;
@@ -14,7 +15,9 @@ namespace Jam
         void Start()
         {
             prayCounter = GetComponentsInChildren<PrayCounter>()[0];
+            danceManager = GetComponentsInChildren<DanceManager>()[0];
             prayCounter.prayDoneEvent += this.DidPray;
+            danceManager.danceEvent += this.DidDance;
         }
 
         // Update is called once per frame
