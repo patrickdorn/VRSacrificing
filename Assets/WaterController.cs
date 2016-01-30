@@ -8,11 +8,17 @@ public class WaterController : MonoBehaviour {
 	void Start () {
 	
 	}
-	
+
     void FixedUpdate()
     {
-        var factor = 1 - Math.Abs(Balance.balance);
-        transform.position = new Vector3(transform.position.x, -1 * factor, transform.position.z);
+        float factor;
+        if (Balance.balance == 1)
+        {
+            factor = 0f;
+        } else { 
+            factor = (float)Math.Sqrt(1 - Math.Abs(Balance.balance));
+        }
+        transform.position = new Vector3(transform.position.x, -6f * factor, transform.position.z);
     }
 
 	// Update is called once per frame
