@@ -17,7 +17,7 @@ public class RainManager : MonoBehaviour {
         {
             if (Balance.balance < 0)
             {
-                emitter.maxEmission = Balance.balance * -1 * 1000;
+                emitter.maxEmission = Balance.balance * -1 * 99999;
             }
             else
             {
