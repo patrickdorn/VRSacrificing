@@ -8,7 +8,7 @@ namespace Jam
         private PrayCounter prayCounter;
         private DanceManager danceManager;
         public static float balance { get; private set; }
-        private float speed = 0;
+        private float speed = 2;
         private float multi = 0.01f;
 
         // Use this for initialization
@@ -40,7 +40,7 @@ namespace Jam
             }
             if (balance == 0)
             {
-                balance = 0.01f;
+                balance = 0.1f;
             }
         }
 

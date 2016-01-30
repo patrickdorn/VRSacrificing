@@ -11,13 +11,7 @@ public class WaterController : MonoBehaviour {
 
     void FixedUpdate()
     {
-        float factor;
-        if (Balance.balance == 1)
-        {
-            factor = 0f;
-        } else { 
-            factor = (float)Math.Sqrt(1 - Math.Abs(Balance.balance));
-        }
+        float factor = (float) (1 - Math.Pow(Balance.balance * -1, 1f/10f));
         transform.position = new Vector3(transform.position.x, -6f * factor, transform.position.z);
     }
 
