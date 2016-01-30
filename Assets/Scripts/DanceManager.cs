@@ -33,7 +33,7 @@ public class DanceManager : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        startDance();
+        
     }
 
     public void startDance()
