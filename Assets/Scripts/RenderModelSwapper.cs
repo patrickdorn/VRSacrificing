@@ -3,28 +3,41 @@ using System.Collections;
 
 public class RenderModelSwapper : MonoBehaviour {
 
-    public GameObject parent;
-    public GameObject model1;
-    public GameObject model2;
+    public GameObject Theparent;
+    public GameObject Theparent_fallback;
+    public Animator animat0r;
 
-    private NewtonVR.NVRHand hand;
+    private NewtonVR.NVRHand Thehand;
 
     void Start()
     {
-        hand = parent.GetComponent<NewtonVR.NVRHand>();
+        if (Theparent != null)
+        {
+            Thehand = Theparent.GetComponent<NewtonVR.NVRHand>();
+        }
+        else
+        {
+            Thehand = Theparent_fallback.GetComponent<NewtonVR.NVRHand>();
+        }
     }
 
     void Update()
     {
-        if (hand.HoldButtonPressed)
+        if (animat0r.GetBool("isGrabbing"))
         {
-            model1.SetActive(true);
-            model2.SetActive(false);
+            animat0r.SetBool("isGrabbing", false);
         }
-        else
+        if (animat0r.GetBool("isOpening"))
         {
-            model1.SetActive(false);
-            model2.SetActive(true);
+            animat0r.SetBool("isOpening", false);
+        }
+        if (Thehand.HoldButtonDown)
+        {
+            animat0r.SetBool("isGrabbing", true);
+        }
+        else if (Thehand.HoldButtonUp)
+        {
+            animat0r.SetBool("isOpening", true);
         }
     }
 

@@ -7,6 +7,8 @@ public class MaterialBlender : MonoBehaviour {
     public bool useBalance = true;
     [Range(0f, 1f)]
     public float Blend;
+    [SerializeField]
+    private float balannceeeedude;
 
     private Material mat;
     private Color blendCol = Color.white;
@@ -15,11 +17,14 @@ public class MaterialBlender : MonoBehaviour {
     void Awake()
     {
         mat = gameObject.GetComponent<Renderer>().material;
+        blendCol.a = 0f;
+        mat.SetColor("_Color", blendCol);
     }
 
     void Update()
     {
-        if (useBalance) currentBlend = Mathf.Lerp(currentBlend, Mathf.Clamp(Jam.Balance.balance, 0f, 1f), Time.deltaTime);
+        balannceeeedude = Jam.Balance.balance;
+        if (useBalance) currentBlend = Mathf.Lerp(currentBlend, Mathf.Clamp(Jam.Balance.balance, 0.1f, 1f), Time.deltaTime);
         else currentBlend = Mathf.Lerp(currentBlend, Blend, Time.deltaTime);
 
         blendCol.a = currentBlend;
