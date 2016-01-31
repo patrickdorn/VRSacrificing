@@ -1,11 +1,6 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 784bd02d8b7275c46ae44405e22298a6
-timeCreated: 1454202043
-=======
-guid: 0fdb3a726214f07458a81c353054bbf9
+guid: a210dfc72a9cdf242a9ad39a5fcc06c2
 timeCreated: 1454203004
->>>>>>> f19deb8cff31914d6dc775f4a899f0eb44c1bf3c
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -14,7 +9,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: hand
+    4300000: gong
   materials:
     importMaterials: 1
     materialName: 0
