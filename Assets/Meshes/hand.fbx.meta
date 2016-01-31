@@ -1,12 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 784bd02d8b7275c46ae44405e22298a6
-timeCreated: 1454202043
-=======
-guid: 0fdb3a726214f07458a81c353054bbf9
-timeCreated: 1454203004
->>>>>>> f19deb8cff31914d6dc775f4a899f0eb44c1bf3c
-licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
@@ -15,6 +8,7 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: hand
+    9500000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
@@ -39,7 +33,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -73,7 +67,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
