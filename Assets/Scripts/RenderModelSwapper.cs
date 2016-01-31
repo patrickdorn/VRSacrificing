@@ -3,20 +3,20 @@ using System.Collections;
 
 public class RenderModelSwapper : MonoBehaviour {
 
-    public GameObject parent;
+    public GameObject Theparent;
     public GameObject model1;
     public GameObject model2;
 
-    private NewtonVR.NVRHand hand;
+    private NewtonVR.NVRHand Thehand;
 
     void Start()
     {
-        hand = parent.GetComponent<NewtonVR.NVRHand>();
+        Thehand = Theparent.GetComponent<NewtonVR.NVRHand>();
     }
 
     void Update()
     {
-        if (hand.HoldButtonPressed)
+        if (Thehand.HoldButtonPressed)
         {
             model1.SetActive(true);
             model2.SetActive(false);
