@@ -3,7 +3,7 @@ namespace Jam
 {
     public class DancePointCollisionDetector : MonoBehaviour
     {
-        private bool hasHit = false;
+        public bool hasHit = false;
         public enum Type
         {
             Right, Left

@@ -85,6 +85,7 @@ public class DanceManager : MonoBehaviour
 
     void DelayedDestroy()
     {
+        currentDancePoint.GetComponent<DancePointCollisionDetector>().hasHit = false;
         Destroy(currentDancePoint);
         createNewDancePoint(new Vector3(xPosition, yPosition, zPosition));
     }
