@@ -38,7 +38,7 @@ public class DanceManager : MonoBehaviour
 
     public void startDance()
     {
-        if (currentDancePoint != null) { 
+        if (currentDancePoint == null) { 
             destroyDancePoint();
             createNewDancePoint(new Vector3(xPosition, yPosition, zPosition));
         }
