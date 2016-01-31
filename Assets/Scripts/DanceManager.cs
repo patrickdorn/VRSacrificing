@@ -58,7 +58,7 @@ public class DanceManager : MonoBehaviour
         }
         xPosition *= -1;
         destroyDancePoint();
-        createNewDancePoint(new Vector3(xPosition, yPosition, zPosition));
+        
     }
 
     private void createNewDancePoint(Vector3 position)
@@ -79,7 +79,13 @@ public class DanceManager : MonoBehaviour
         if (currentDancePoint != null)
         {
             currentDancePoint.GetComponent<DancePointCollisionDetector>().RattleEvent -= this.RattleSuccessful;
-            Destroy(currentDancePoint);
+            Invoke("DelayedDestroy", 1.5f);
         }
+    }
+
+    void DelayedDestroy()
+    {
+        Destroy(currentDancePoint);
+        createNewDancePoint(new Vector3(xPosition, yPosition, zPosition));
     }
 }

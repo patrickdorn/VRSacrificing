@@ -3,7 +3,8 @@ namespace Jam
 {
     public class DancePointCollisionDetector : MonoBehaviour
     {
-        public enum Type {
+        public enum Type
+        {
             Right, Left
         }
 
@@ -13,15 +14,20 @@ namespace Jam
 
         public void OnTriggerEnter(Collider other)
         {
+            Debug.Log("YOlo");
             if (other.CompareTag("Rattle") && RattleEvent != null)
             {
-                if (type == Type.Left) {
+                Debug.Log("inside");
+                if (type == Type.Left)
+                {
                     PlayGongLeft.instance.play();
-                } else
+                }
+                else
                 {
                     PlayRightGong.instance.play();
                 }
-                RattleEvent();
+               RattleEvent();
+
             }
         }
     }
