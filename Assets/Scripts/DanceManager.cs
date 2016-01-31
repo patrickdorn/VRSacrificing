@@ -79,7 +79,7 @@ public class DanceManager : MonoBehaviour
         if (currentDancePoint != null)
         {
             currentDancePoint.GetComponent<DancePointCollisionDetector>().RattleEvent -= this.RattleSuccessful;
-            Invoke("DelayedDestroy", 1.5f);
+            Invoke("DelayedDestroy", 1.0f);
         }
     }
 
