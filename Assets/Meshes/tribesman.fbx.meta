@@ -1,0 +1,541 @@
+fileFormatVersion: 2
+guid: 5a2e5ccf2b543cc4bb21aa52d3ebc278
+timeCreated: 1454242650
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Skeleton_Joint
+    100002: Skeleton_Joint 1
+    100004: Skeleton_Joint_10
+    100006: Skeleton_Joint_10 1
+    100008: Skeleton_Joint_2
+    100010: Skeleton_Joint_2 1
+    100012: Skeleton_Joint_3
+    100014: Skeleton_Joint_3 1
+    100016: Skeleton_Joint_4
+    100018: Skeleton_Joint_4 1
+    100020: Skeleton_Joint_5
+    100022: Skeleton_Joint_5 1
+    100024: Skeleton_Joint_6
+    100026: Skeleton_Joint_6 1
+    100028: Skeleton_Joint_7
+    100030: Skeleton_Joint_7 1
+    100032: Skeleton_Joint_8
+    100034: Skeleton_Joint_8 1
+    100036: Skeleton_Joint_9
+    100038: Skeleton_Joint_9 1
+    100040: Skeleton_Joint_L
+    100042: Skeleton_Joint_L 1
+    100044: Skeleton_Joint_L_2
+    100046: Skeleton_Joint_L_2 1
+    100048: Skeleton_Joint_L_3
+    100050: Skeleton_Joint_L_3 1
+    100052: Skeleton_Joint_L_4
+    100054: Skeleton_Joint_L_4 1
+    100056: Skeleton_Joint_L_5
+    100058: Skeleton_Joint_L_5 1
+    100060: Skeleton_Joint_L_6
+    100062: Skeleton_Joint_L_6 1
+    100064: Skeleton_Joint_L_7
+    100066: Skeleton_Joint_L_7 1
+    100068: Skeleton_Joint_L_8
+    100070: Skeleton_Joint_L_8 1
+    100072: Skeleton_Joint_L_9
+    100074: Skeleton_Joint_L_9 1
+    100076: Skeleton_Joint_R
+    100078: Skeleton_Joint_R 1
+    100080: Skeleton_Joint_R_2
+    100082: Skeleton_Joint_R_2 1
+    100084: Skeleton_Joint_R_3
+    100086: Skeleton_Joint_R_3 1
+    100088: Skeleton_Joint_R_4
+    100090: Skeleton_Joint_R_4 1
+    100092: Skeleton_Joint_R_5
+    100094: Skeleton_Joint_R_5 1
+    100096: Skeleton_Joint_R_6
+    100098: Skeleton_Joint_R_6 1
+    100100: Skeleton_Joint_R_7
+    100102: Skeleton_Joint_R_7 1
+    100104: Skeleton_Joint_R_8
+    100106: Skeleton_Joint_R_8 1
+    100108: Skeleton_Joint_R_9
+    100110: Skeleton_Joint_R_9 1
+    100112: //RootNode
+    100114: tribesman
+    400000: Skeleton_Joint
+    400002: Skeleton_Joint 1
+    400004: Skeleton_Joint_10
+    400006: Skeleton_Joint_10 1
+    400008: Skeleton_Joint_2
+    400010: Skeleton_Joint_2 1
+    400012: Skeleton_Joint_3
+    400014: Skeleton_Joint_3 1
+    400016: Skeleton_Joint_4
+    400018: Skeleton_Joint_4 1
+    400020: Skeleton_Joint_5
+    400022: Skeleton_Joint_5 1
+    400024: Skeleton_Joint_6
+    400026: Skeleton_Joint_6 1
+    400028: Skeleton_Joint_7
+    400030: Skeleton_Joint_7 1
+    400032: Skeleton_Joint_8
+    400034: Skeleton_Joint_8 1
+    400036: Skeleton_Joint_9
+    400038: Skeleton_Joint_9 1
+    400040: Skeleton_Joint_L
+    400042: Skeleton_Joint_L 1
+    400044: Skeleton_Joint_L_2
+    400046: Skeleton_Joint_L_2 1
+    400048: Skeleton_Joint_L_3
+    400050: Skeleton_Joint_L_3 1
+    400052: Skeleton_Joint_L_4
+    400054: Skeleton_Joint_L_4 1
+    400056: Skeleton_Joint_L_5
+    400058: Skeleton_Joint_L_5 1
+    400060: Skeleton_Joint_L_6
+    400062: Skeleton_Joint_L_6 1
+    400064: Skeleton_Joint_L_7
+    400066: Skeleton_Joint_L_7 1
+    400068: Skeleton_Joint_L_8
+    400070: Skeleton_Joint_L_8 1
+    400072: Skeleton_Joint_L_9
+    400074: Skeleton_Joint_L_9 1
+    400076: Skeleton_Joint_R
+    400078: Skeleton_Joint_R 1
+    400080: Skeleton_Joint_R_2
+    400082: Skeleton_Joint_R_2 1
+    400084: Skeleton_Joint_R_3
+    400086: Skeleton_Joint_R_3 1
+    400088: Skeleton_Joint_R_4
+    400090: Skeleton_Joint_R_4 1
+    400092: Skeleton_Joint_R_5
+    400094: Skeleton_Joint_R_5 1
+    400096: Skeleton_Joint_R_6
+    400098: Skeleton_Joint_R_6 1
+    400100: Skeleton_Joint_R_7
+    400102: Skeleton_Joint_R_7 1
+    400104: Skeleton_Joint_R_8
+    400106: Skeleton_Joint_R_8 1
+    400108: Skeleton_Joint_R_9
+    400110: Skeleton_Joint_R_9 1
+    400112: //RootNode
+    400114: tribesman
+    4300000: tribesman
+    7400000: Tribesman_dance
+    7400002: Tribesman_Dance_left
+    7400004: Tribesman_Dance_right
+    7400006: Tribesman_Dance_right2
+    7400008: Tribesman_Dance_left2
+    7400010: Tribesman_pray
+    7400012: Tribesman_Pray_knees
+    7400014: Tribesman_Pray_up
+    7400016: Tribesman_pray0
+    9500000: //RootNode
+    13700000: tribesman
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Tribesman_pray0
+      takeName: Tribesman_pray
+      firstFrame: 0
+      lastFrame: 51
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Skeleton_Joint
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_2
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_2/Skeleton_Joint_3
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_2/Skeleton_Joint_3/Skeleton_Joint_4
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_2/Skeleton_Joint_3/Skeleton_Joint_4/Skeleton_Joint_5
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_2/Skeleton_Joint_3/Skeleton_Joint_4/Skeleton_Joint_5/Skeleton_Joint_6
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_2/Skeleton_Joint_3/Skeleton_Joint_4/Skeleton_Joint_L
+          1
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_2/Skeleton_Joint_3/Skeleton_Joint_4/Skeleton_Joint_L
+          1/Skeleton_Joint_L_2
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_2/Skeleton_Joint_3/Skeleton_Joint_4/Skeleton_Joint_L
+          1/Skeleton_Joint_L_2/Skeleton_Joint_L_3 1
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_2/Skeleton_Joint_3/Skeleton_Joint_4/Skeleton_Joint_L
+          1/Skeleton_Joint_L_2/Skeleton_Joint_L_3 1/Skeleton_Joint_L_4 1
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_2/Skeleton_Joint_3/Skeleton_Joint_4/Skeleton_Joint_R
+          1
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_2/Skeleton_Joint_3/Skeleton_Joint_4/Skeleton_Joint_R
+          1/Skeleton_Joint_R_2
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_2/Skeleton_Joint_3/Skeleton_Joint_4/Skeleton_Joint_R
+          1/Skeleton_Joint_R_2/Skeleton_Joint_R_3
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_2/Skeleton_Joint_3/Skeleton_Joint_4/Skeleton_Joint_R
+          1/Skeleton_Joint_R_2/Skeleton_Joint_R_3/Skeleton_Joint_R_4 1
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_8 1
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_8 1/Skeleton_Joint_10 1
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_9
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_9/Skeleton_Joint_7
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_L_5
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_L_5/Skeleton_Joint_L_6
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_L_5/Skeleton_Joint_L_6/Skeleton_Joint_L_7
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_L_5/Skeleton_Joint_L_6/Skeleton_Joint_L_7/Skeleton_Joint_L_8
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_L_5/Skeleton_Joint_L_6/Skeleton_Joint_L_7/Skeleton_Joint_L_8/Skeleton_Joint_L_9
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_R_5 1
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_R_5 1/Skeleton_Joint_R_6
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_R_5 1/Skeleton_Joint_R_6/Skeleton_Joint_R_7
+          1
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_R_5 1/Skeleton_Joint_R_6/Skeleton_Joint_R_7
+          1/Skeleton_Joint_R_8
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_R_5 1/Skeleton_Joint_R_6/Skeleton_Joint_R_7
+          1/Skeleton_Joint_R_8/Skeleton_Joint_R_9
+        weight: 1
+      - path: Skeleton_Joint 1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_2 1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_2 1/Skeleton_Joint_3 1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_2 1/Skeleton_Joint_3 1/Skeleton_Joint_4
+          1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_2 1/Skeleton_Joint_3 1/Skeleton_Joint_4
+          1/Skeleton_Joint_5 1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_2 1/Skeleton_Joint_3 1/Skeleton_Joint_4
+          1/Skeleton_Joint_5 1/Skeleton_Joint_6 1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_2 1/Skeleton_Joint_3 1/Skeleton_Joint_4
+          1/Skeleton_Joint_L
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_2 1/Skeleton_Joint_3 1/Skeleton_Joint_4
+          1/Skeleton_Joint_L/Skeleton_Joint_L_2 1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_2 1/Skeleton_Joint_3 1/Skeleton_Joint_4
+          1/Skeleton_Joint_L/Skeleton_Joint_L_2 1/Skeleton_Joint_L_3
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_2 1/Skeleton_Joint_3 1/Skeleton_Joint_4
+          1/Skeleton_Joint_L/Skeleton_Joint_L_2 1/Skeleton_Joint_L_3/Skeleton_Joint_L_4
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_2 1/Skeleton_Joint_3 1/Skeleton_Joint_4
+          1/Skeleton_Joint_R
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_2 1/Skeleton_Joint_3 1/Skeleton_Joint_4
+          1/Skeleton_Joint_R/Skeleton_Joint_R_2 1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_2 1/Skeleton_Joint_3 1/Skeleton_Joint_4
+          1/Skeleton_Joint_R/Skeleton_Joint_R_2 1/Skeleton_Joint_R_3 1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_2 1/Skeleton_Joint_3 1/Skeleton_Joint_4
+          1/Skeleton_Joint_R/Skeleton_Joint_R_2 1/Skeleton_Joint_R_3 1/Skeleton_Joint_R_4
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_8
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_8/Skeleton_Joint_10
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_9 1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_9 1/Skeleton_Joint_7 1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_L_5 1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_L_5 1/Skeleton_Joint_L_6 1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_L_5 1/Skeleton_Joint_L_6 1/Skeleton_Joint_L_7
+          1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_L_5 1/Skeleton_Joint_L_6 1/Skeleton_Joint_L_7
+          1/Skeleton_Joint_L_8 1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_L_5 1/Skeleton_Joint_L_6 1/Skeleton_Joint_L_7
+          1/Skeleton_Joint_L_8 1/Skeleton_Joint_L_9 1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_R_5
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_R_5/Skeleton_Joint_R_6 1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_R_5/Skeleton_Joint_R_6 1/Skeleton_Joint_R_7
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_R_5/Skeleton_Joint_R_6 1/Skeleton_Joint_R_7/Skeleton_Joint_R_8
+          1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_R_5/Skeleton_Joint_R_6 1/Skeleton_Joint_R_7/Skeleton_Joint_R_8
+          1/Skeleton_Joint_R_9 1
+        weight: 1
+      - path: tribesman
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Tribesman_pray
+      takeName: Tribesman_pray
+      firstFrame: 0
+      lastFrame: 51
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Skeleton_Joint
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_2
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_2/Skeleton_Joint_3
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_2/Skeleton_Joint_3/Skeleton_Joint_4
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_2/Skeleton_Joint_3/Skeleton_Joint_4/Skeleton_Joint_5
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_2/Skeleton_Joint_3/Skeleton_Joint_4/Skeleton_Joint_5/Skeleton_Joint_6
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_2/Skeleton_Joint_3/Skeleton_Joint_4/Skeleton_Joint_L
+          1
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_2/Skeleton_Joint_3/Skeleton_Joint_4/Skeleton_Joint_L
+          1/Skeleton_Joint_L_2
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_2/Skeleton_Joint_3/Skeleton_Joint_4/Skeleton_Joint_L
+          1/Skeleton_Joint_L_2/Skeleton_Joint_L_3 1
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_2/Skeleton_Joint_3/Skeleton_Joint_4/Skeleton_Joint_L
+          1/Skeleton_Joint_L_2/Skeleton_Joint_L_3 1/Skeleton_Joint_L_4 1
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_2/Skeleton_Joint_3/Skeleton_Joint_4/Skeleton_Joint_R
+          1
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_2/Skeleton_Joint_3/Skeleton_Joint_4/Skeleton_Joint_R
+          1/Skeleton_Joint_R_2
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_2/Skeleton_Joint_3/Skeleton_Joint_4/Skeleton_Joint_R
+          1/Skeleton_Joint_R_2/Skeleton_Joint_R_3
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_2/Skeleton_Joint_3/Skeleton_Joint_4/Skeleton_Joint_R
+          1/Skeleton_Joint_R_2/Skeleton_Joint_R_3/Skeleton_Joint_R_4 1
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_8 1
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_8 1/Skeleton_Joint_10 1
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_9
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_9/Skeleton_Joint_7
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_L_5
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_L_5/Skeleton_Joint_L_6
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_L_5/Skeleton_Joint_L_6/Skeleton_Joint_L_7
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_L_5/Skeleton_Joint_L_6/Skeleton_Joint_L_7/Skeleton_Joint_L_8
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_L_5/Skeleton_Joint_L_6/Skeleton_Joint_L_7/Skeleton_Joint_L_8/Skeleton_Joint_L_9
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_R_5 1
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_R_5 1/Skeleton_Joint_R_6
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_R_5 1/Skeleton_Joint_R_6/Skeleton_Joint_R_7
+          1
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_R_5 1/Skeleton_Joint_R_6/Skeleton_Joint_R_7
+          1/Skeleton_Joint_R_8
+        weight: 1
+      - path: Skeleton_Joint/Skeleton_Joint_R_5 1/Skeleton_Joint_R_6/Skeleton_Joint_R_7
+          1/Skeleton_Joint_R_8/Skeleton_Joint_R_9
+        weight: 1
+      - path: Skeleton_Joint 1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_2 1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_2 1/Skeleton_Joint_3 1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_2 1/Skeleton_Joint_3 1/Skeleton_Joint_4
+          1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_2 1/Skeleton_Joint_3 1/Skeleton_Joint_4
+          1/Skeleton_Joint_5 1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_2 1/Skeleton_Joint_3 1/Skeleton_Joint_4
+          1/Skeleton_Joint_5 1/Skeleton_Joint_6 1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_2 1/Skeleton_Joint_3 1/Skeleton_Joint_4
+          1/Skeleton_Joint_L
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_2 1/Skeleton_Joint_3 1/Skeleton_Joint_4
+          1/Skeleton_Joint_L/Skeleton_Joint_L_2 1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_2 1/Skeleton_Joint_3 1/Skeleton_Joint_4
+          1/Skeleton_Joint_L/Skeleton_Joint_L_2 1/Skeleton_Joint_L_3
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_2 1/Skeleton_Joint_3 1/Skeleton_Joint_4
+          1/Skeleton_Joint_L/Skeleton_Joint_L_2 1/Skeleton_Joint_L_3/Skeleton_Joint_L_4
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_2 1/Skeleton_Joint_3 1/Skeleton_Joint_4
+          1/Skeleton_Joint_R
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_2 1/Skeleton_Joint_3 1/Skeleton_Joint_4
+          1/Skeleton_Joint_R/Skeleton_Joint_R_2 1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_2 1/Skeleton_Joint_3 1/Skeleton_Joint_4
+          1/Skeleton_Joint_R/Skeleton_Joint_R_2 1/Skeleton_Joint_R_3 1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_2 1/Skeleton_Joint_3 1/Skeleton_Joint_4
+          1/Skeleton_Joint_R/Skeleton_Joint_R_2 1/Skeleton_Joint_R_3 1/Skeleton_Joint_R_4
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_8
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_8/Skeleton_Joint_10
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_9 1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_9 1/Skeleton_Joint_7 1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_L_5 1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_L_5 1/Skeleton_Joint_L_6 1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_L_5 1/Skeleton_Joint_L_6 1/Skeleton_Joint_L_7
+          1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_L_5 1/Skeleton_Joint_L_6 1/Skeleton_Joint_L_7
+          1/Skeleton_Joint_L_8 1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_L_5 1/Skeleton_Joint_L_6 1/Skeleton_Joint_L_7
+          1/Skeleton_Joint_L_8 1/Skeleton_Joint_L_9 1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_R_5
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_R_5/Skeleton_Joint_R_6 1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_R_5/Skeleton_Joint_R_6 1/Skeleton_Joint_R_7
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_R_5/Skeleton_Joint_R_6 1/Skeleton_Joint_R_7/Skeleton_Joint_R_8
+          1
+        weight: 1
+      - path: Skeleton_Joint 1/Skeleton_Joint_R_5/Skeleton_Joint_R_6 1/Skeleton_Joint_R_7/Skeleton_Joint_R_8
+          1/Skeleton_Joint_R_9 1
+        weight: 1
+      - path: tribesman
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
