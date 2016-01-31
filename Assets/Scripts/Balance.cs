@@ -1,4 +1,6 @@
 ﻿using UnityEngine;
+using System;
+
 namespace Jam
 {
 
@@ -7,7 +9,7 @@ namespace Jam
 
         private PrayCounter prayCounter;
         private DanceManager danceManager;
-        public static float balance { get; private set; }
+        public static float balance { get; set; }
         private float speed = 2;
         private float multi = 0.01f;
 
@@ -23,6 +25,11 @@ namespace Jam
         // Update is called once per frame
         void Update()
         {
+            if (Math.Abs(balance) == 1)
+            {
+                balance = 0;
+                Application.LoadLevel(1);
+            }
             balance = balance + multi * speed * Time.deltaTime;
             NormalizeBalance();
         }
