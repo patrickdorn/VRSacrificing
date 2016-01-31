@@ -38,8 +38,10 @@ public class DanceManager : MonoBehaviour
 
     public void startDance()
     {
-        destroyDancePoint();
-        createNewDancePoint(new Vector3(xPosition, yPosition, zPosition));
+        if (currentDancePoint != null) { 
+            destroyDancePoint();
+            createNewDancePoint(new Vector3(xPosition, yPosition, zPosition));
+        }
     }
 
     public void stopDance()
@@ -87,6 +89,7 @@ public class DanceManager : MonoBehaviour
     {
         currentDancePoint.GetComponent<DancePointCollisionDetector>().hasHit = false;
         Destroy(currentDancePoint);
+        currentDancePoint = null;
         createNewDancePoint(new Vector3(xPosition, yPosition, zPosition));
     }
 }
