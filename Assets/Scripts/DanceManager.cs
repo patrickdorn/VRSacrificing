@@ -34,7 +34,7 @@ public class DanceManager : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        
+        startDance();
     }
 
     public void startDance()
@@ -66,6 +66,13 @@ public class DanceManager : MonoBehaviour
     {
         currentDancePoint = Instantiate(dancePoint, position, transform.rotation) as GameObject;
         currentDancePoint.GetComponent<DancePointCollisionDetector>().RattleEvent += this.RattleSuccessful;
+        if (xPosition == 1)
+        {
+            currentDancePoint.GetComponent<DancePointCollisionDetector>().type = DancePointCollisionDetector.Type.Right;
+        } else
+        {
+            currentDancePoint.GetComponent<DancePointCollisionDetector>().type = DancePointCollisionDetector.Type.Left;
+        }
     }
 
     private void destroyDancePoint()
