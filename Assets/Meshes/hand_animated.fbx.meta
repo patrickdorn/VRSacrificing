@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: 12d6ee909847ef8408f63478c5fdecc7
+timeCreated: 1454232910
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: hand
+    100002: //RootNode
+    100004: Skeleton_Joint
+    100006: Skeleton_Joint 1
+    100008: Skeleton_Joint_10
+    100010: Skeleton_Joint_10 1
+    100012: Skeleton_Joint_11
+    100014: Skeleton_Joint_11 1
+    100016: Skeleton_Joint_12
+    100018: Skeleton_Joint_12 1
+    100020: Skeleton_Joint_13
+    100022: Skeleton_Joint_13 1
+    100024: Skeleton_Joint_14
+    100026: Skeleton_Joint_14 1
+    100028: Skeleton_Joint_15
+    100030: Skeleton_Joint_15 1
+    100032: Skeleton_Joint_16
+    100034: Skeleton_Joint_16 1
+    100036: Skeleton_Joint_17
+    100038: Skeleton_Joint_17 1
+    100040: Skeleton_Joint_18
+    100042: Skeleton_Joint_18 1
+    100044: Skeleton_Joint_19
+    100046: Skeleton_Joint_19 1
+    100048: Skeleton_Joint_2
+    100050: Skeleton_Joint_2 1
+    100052: Skeleton_Joint_20
+    100054: Skeleton_Joint_20 1
+    100056: Skeleton_Joint_21
+    100058: Skeleton_Joint_21 1
+    100060: Skeleton_Joint_22
+    100062: Skeleton_Joint_22 1
+    100064: Skeleton_Joint_23
+    100066: Skeleton_Joint_23 1
+    100068: Skeleton_Joint_3
+    100070: Skeleton_Joint_3 1
+    100072: Skeleton_Joint_4
+    100074: Skeleton_Joint_4 1
+    100076: Skeleton_Joint_5
+    100078: Skeleton_Joint_5 1
+    100080: Skeleton_Joint_6
+    100082: Skeleton_Joint_6 1
+    100084: Skeleton_Joint_7
+    100086: Skeleton_Joint_7 1
+    100088: Skeleton_Joint_8
+    100090: Skeleton_Joint_8 1
+    100092: Skeleton_Joint_9
+    100094: Skeleton_Joint_9 1
+    400000: hand
+    400002: //RootNode
+    400004: Skeleton_Joint
+    400006: Skeleton_Joint 1
+    400008: Skeleton_Joint_10
+    400010: Skeleton_Joint_10 1
+    400012: Skeleton_Joint_11
+    400014: Skeleton_Joint_11 1
+    400016: Skeleton_Joint_12
+    400018: Skeleton_Joint_12 1
+    400020: Skeleton_Joint_13
+    400022: Skeleton_Joint_13 1
+    400024: Skeleton_Joint_14
+    400026: Skeleton_Joint_14 1
+    400028: Skeleton_Joint_15
+    400030: Skeleton_Joint_15 1
+    400032: Skeleton_Joint_16
+    400034: Skeleton_Joint_16 1
+    400036: Skeleton_Joint_17
+    400038: Skeleton_Joint_17 1
+    400040: Skeleton_Joint_18
+    400042: Skeleton_Joint_18 1
+    400044: Skeleton_Joint_19
+    400046: Skeleton_Joint_19 1
+    400048: Skeleton_Joint_2
+    400050: Skeleton_Joint_2 1
+    400052: Skeleton_Joint_20
+    400054: Skeleton_Joint_20 1
+    400056: Skeleton_Joint_21
+    400058: Skeleton_Joint_21 1
+    400060: Skeleton_Joint_22
+    400062: Skeleton_Joint_22 1
+    400064: Skeleton_Joint_23
+    400066: Skeleton_Joint_23 1
+    400068: Skeleton_Joint_3
+    400070: Skeleton_Joint_3 1
+    400072: Skeleton_Joint_4
+    400074: Skeleton_Joint_4 1
+    400076: Skeleton_Joint_5
+    400078: Skeleton_Joint_5 1
+    400080: Skeleton_Joint_6
+    400082: Skeleton_Joint_6 1
+    400084: Skeleton_Joint_7
+    400086: Skeleton_Joint_7 1
+    400088: Skeleton_Joint_8
+    400090: Skeleton_Joint_8 1
+    400092: Skeleton_Joint_9
+    400094: Skeleton_Joint_9 1
+    4300000: hand
+    7400000: Hand_Fist
+    9500000: //RootNode
+    13700000: hand
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
